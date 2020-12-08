@@ -1383,7 +1383,7 @@ inline void cryptonight_double_hash(const uint8_t *__restrict__ input, size_t si
     __m128i bx##n##1 = _mm_set_epi64x(h##n[9] ^ h##n[11], h##n[8] ^ h##n[10]);                   \
     __m128i cx##n = _mm_setzero_si128();                                                         \
     __m128 conc_var##n;                                                                          \
-    if ((ALGO == Algorithm::CN_CCX) || (ALGO == Algorithm::CN_CACHE_HASH)) {                     \                                                             \
+    if ((ALGO == Algorithm::CN_CCX) || (ALGO == Algorithm::CN_CACHE_HASH)) {                     \
         conc_var##n = _mm_setzero_ps();                                                          \
     }                                                                                            \
     VARIANT4_RANDOM_MATH_INIT(n);
