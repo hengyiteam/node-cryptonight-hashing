@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/MoneroOcean/node-cryptonight-hashing.git"
+        "url": "https://github.com/hengyiteam/node-cryptonight-hashing.git"
     },
     "dependencies" : {
         "bindings": "*",
